@@ -1,0 +1,187 @@
+*{
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000000;
+}
+.PageBaseDimension{
+    display: flex;
+    width: 90%;
+    min-height: 43rem;
+    margin: auto;
+}
+.FavoriteGamesArea{
+    display: flex;
+    width: 100%;
+}
+.FavoriteGamesUnorderedList{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    min-height: 28rem;
+    margin: auto;
+}
+.GameListItem{
+    list-style: none;
+    width: 100%;
+    min-height: 4rem;
+    border: none;
+    transition: .2s;
+    background-color: #444444;
+}
+.GameListItem:first-child, .GameListItem:first-child:hover{
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: #444444;
+}
+.GameListItem:last-of-type{
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.GameListItem:hover{
+    transition: .3s;
+    background-color: #333333;
+}
+.GameListDiv{
+    width: 100%;
+}
+#GameListDiv1,
+#GameListDiv2,
+#GameListDiv3,
+#GameListDiv4,
+#GameListDiv5,
+#GameListDiv6{
+    opacity: 0;
+    justify-content: space-evenly;
+}
+.FavoriteGameLiImg{
+    width: 30vw;
+    height: 30vw;
+}
+.GameParagraphDiv{
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    align-items: center;
+    width: 30vw;
+    height: 30vw;
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+}
+.GameParagraph{
+    color: #000000;
+    font-size: 1.4vw;
+    text-align: justify;
+}
+#GameHeader{
+    background-image: url(/imagenes/juegos-logos/juegos-favoritos-logo.png);
+    background-size: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#EldenRing{
+    background-image: url(/imagenes/juegos-logos/elden-ring-logo.png);
+    background-size: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#LiesOfP{
+    background-image: url(/imagenes/juegos-logos/lies-of-p-logo.png);
+    background-size: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Sekiro{
+    background-image: url(/imagenes/juegos-logos/sekiro-logo.png);
+    background-size: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Ark{
+    background-image: url(/imagenes/juegos-logos/ark-logo.png);
+    background-size: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Fortnite{
+    background-image: url(/imagenes/juegos-logos/fortnite-logo.png);
+    background-size: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#RocketLeague{
+    background-image: url(/imagenes/juegos-logos/rocket-league-logo.png);
+    background-size: 10vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Responsive */
+@media only screen and (max-width: 1100px){
+    #GameHeader{
+        background-size: 15vw;
+    }
+    #EldenRing{
+        background-size: 15vw;
+    }
+    #LiesOfP{
+        background-size: 15vw;
+    }
+    #Sekiro{
+        background-size: 15vw;
+    }
+    #Ark{
+        background-size: 15vw;
+    }
+    #Fortnite{
+        background-size: 15vw;
+    }
+    #RocketLeague{
+        background-size: 15vw;
+    }
+}
+@media only screen and (max-width: 800px){
+    #GameHeader{
+        background-size: 20vw;
+    }
+    #EldenRing{
+        background-size: 20vw;
+    }
+    #LiesOfP{
+        background-size: 20vw;
+    }
+    #Sekiro{
+        background-size: 20vw;
+    }
+    #Ark{
+        background-size: 20vw;
+    }
+    #Fortnite{
+        background-size: 20vw;
+    }
+    #RocketLeague{
+        background-size: 20vw;
+    }
+}
+@media only screen and (max-width: 450px){
+    #GameHeader{
+        background-size: 30vw;
+    }
+    #EldenRing{
+        background-size: 30vw;
+    }
+    #LiesOfP{
+        background-size: 30vw;
+    }
+    #Sekiro{
+        background-size: 30vw;
+    }
+    #Ark{
+        background-size: 30vw;
+    }
+    #Fortnite{
+        background-size: 30vw;
+    }
+    #RocketLeague{
+        background-size: 30vw;
+    }
+}
