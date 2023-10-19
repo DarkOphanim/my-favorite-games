@@ -161,6 +161,25 @@ body{
     #RocketLeague{
         background-size: 20vw;
     }
+    .GameListDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .FavoriteGameLiImg{
+        width: 80%;
+        height: 80%;
+        margin: 1rem 0 1rem 0;
+    }
+    .GameParagraphDiv{
+        width: 80%;
+        height: auto;
+        margin: 0 0 1rem 0;
+        justify-content: space-evenly;
+        backdrop-filter: invert();
+    }
+    .GameParagraph{
+        font-size: 4vw;
+    }
 }
 @media only screen and (max-width: 450px){
     #GameHeader{
