@@ -74,43 +74,43 @@ body{
     text-align: justify;
 }
 #GameHeader{
-    background-image: url(imagenes/juegos-logos/juegos-favoritos-logo.png);
+    background-image: url("../imagenes/juegos-logos/juegos-favoritos-logo.png");
     background-size: 10vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 #EldenRing{
-    background-image: url(imagenes/juegos-logos/elden-ring-logo.png);
+    background-image: url("../imagenes/juegos-logos/elden-ring-logo.png");
     background-size: 10vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 #LiesOfP{
-    background-image: url(imagenes/juegos-logos/lies-of-p-logo.png);
+    background-image: url("../imagenes/juegos-logos/lies-of-p-logo.png");
     background-size: 10vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 #Sekiro{
-    background-image: url(imagenes/juegos-logos/sekiro-logo.png);
+    background-image: url("../imagenes/juegos-logos/sekiro-logo.png");
     background-size: 10vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 #Ark{
-    background-image: url(imagenes/juegos-logos/ark-logo.png);
+    background-image: url("../imagenes/juegos-logos/ark-logo.png");
     background-size: 10vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 #Fortnite{
-    background-image: url(imagenes/juegos-logos/fortnite-logo.png);
+    background-image: url("../imagenes/juegos-logos/fortnite-logo.png");
     background-size: 10vw;
     background-position: center;
     background-repeat: no-repeat;
 }
 #RocketLeague{
-    background-image: url(imagenes/juegos-logos/rocket-league-logo.png);
+    background-image: url("../imagenes/juegos-logos/rocket-league-logo.png");
     background-size: 10vw;
     background-position: center;
     background-repeat: no-repeat;
